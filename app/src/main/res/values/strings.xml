@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">policyInterpreter</string>
+    <string name="press_to_analyze_policy">Press to Analyze Policy!</string>
+    <string name="analyze">Analyze</string>
+    <string name="title_activity_results">ResultsActivity</string>
+</resources>
