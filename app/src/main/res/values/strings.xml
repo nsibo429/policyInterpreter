@@ -3,4 +3,8 @@
     <string name="press_to_analyze_policy">Press to Analyze Policy!</string>
     <string name="analyze">Analyze</string>
     <string name="title_activity_results">ResultsActivity</string>
+    <string name="policy_collection_info_title">Policy Collection Info:</string>
+    <string name="policy_disclosure_info_title">Policy Disclosure Info:</string>
+    <string name="what_it_means_to_disclose">WHAT IT MEANS TO DISCLOSE:</string>
+    <string name="what_it_means_to_collect">WHAT IT MEANS TO COLLECT:</string>
 </resources>
