@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
 
         analyzeButton = (Button) findViewById(R.id.analyze_button);
         textView = findViewById(R.id.titleAnalyze);
+
         analyzeButton.setOnClickListener(new View.OnClickListener() {
 
             @Override
@@ -37,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
-
+                //going to another activity
                 Intent intent = new Intent(getApplicationContext(), ResultsActivity.class);
                 intent.putExtra("results", results);
                 intent.putExtra("resultsD", resultsD);
